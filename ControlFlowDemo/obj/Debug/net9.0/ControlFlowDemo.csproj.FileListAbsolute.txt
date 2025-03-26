@@ -1,0 +1,14 @@
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\bin\Debug\net9.0\ControlFlowDemo.exe
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\bin\Debug\net9.0\ControlFlowDemo.deps.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\bin\Debug\net9.0\ControlFlowDemo.runtimeconfig.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\bin\Debug\net9.0\ControlFlowDemo.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\bin\Debug\net9.0\ControlFlowDemo.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\obj\Debug\net9.0\ControlFlowDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\obj\Debug\net9.0\ControlFlowDemo.AssemblyInfoInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\obj\Debug\net9.0\ControlFlowDemo.AssemblyInfo.cs
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\obj\Debug\net9.0\ControlFlowDemo.csproj.CoreCompileInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\obj\Debug\net9.0\ControlFlowDemo.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\obj\Debug\net9.0\refint\ControlFlowDemo.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\obj\Debug\net9.0\ControlFlowDemo.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\obj\Debug\net9.0\ControlFlowDemo.genruntimeconfig.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\ControlFlowDemo\obj\Debug\net9.0\ref\ControlFlowDemo.dll

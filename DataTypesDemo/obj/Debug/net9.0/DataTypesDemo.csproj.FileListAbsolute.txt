@@ -1,0 +1,14 @@
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\bin\Debug\net9.0\DataTypesDemo.exe
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\bin\Debug\net9.0\DataTypesDemo.deps.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\bin\Debug\net9.0\DataTypesDemo.runtimeconfig.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\bin\Debug\net9.0\DataTypesDemo.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\bin\Debug\net9.0\DataTypesDemo.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\obj\Debug\net9.0\DataTypesDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\obj\Debug\net9.0\DataTypesDemo.AssemblyInfoInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\obj\Debug\net9.0\DataTypesDemo.AssemblyInfo.cs
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\obj\Debug\net9.0\DataTypesDemo.csproj.CoreCompileInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\obj\Debug\net9.0\DataTypesDemo.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\obj\Debug\net9.0\refint\DataTypesDemo.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\obj\Debug\net9.0\DataTypesDemo.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\obj\Debug\net9.0\DataTypesDemo.genruntimeconfig.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\DataTypesDemo\obj\Debug\net9.0\ref\DataTypesDemo.dll
