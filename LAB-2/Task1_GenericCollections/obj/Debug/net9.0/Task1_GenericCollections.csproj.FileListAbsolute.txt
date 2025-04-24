@@ -1,0 +1,15 @@
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\bin\Debug\net9.0\Task1_GenericCollections.exe
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\bin\Debug\net9.0\Task1_GenericCollections.deps.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\bin\Debug\net9.0\Task1_GenericCollections.runtimeconfig.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\bin\Debug\net9.0\Task1_GenericCollections.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\bin\Debug\net9.0\Task1_GenericCollections.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\obj\Debug\net9.0\Task1_GenericCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\obj\Debug\net9.0\Task1_GenericCollections.AssemblyInfoInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\obj\Debug\net9.0\Task1_GenericCollections.AssemblyInfo.cs
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\obj\Debug\net9.0\Task1_GenericCollections.csproj.CoreCompileInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\obj\Debug\net9.0\Task1_GenericCollections.sourcelink.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\obj\Debug\net9.0\Task1_GenericCollections.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\obj\Debug\net9.0\refint\Task1_GenericCollections.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\obj\Debug\net9.0\Task1_GenericCollections.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\obj\Debug\net9.0\Task1_GenericCollections.genruntimeconfig.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task1_GenericCollections\obj\Debug\net9.0\ref\Task1_GenericCollections.dll

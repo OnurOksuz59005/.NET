@@ -1,0 +1,15 @@
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\bin\Debug\net9.0-windows\Task5_UIContainers.exe
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\bin\Debug\net9.0-windows\Task5_UIContainers.deps.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\bin\Debug\net9.0-windows\Task5_UIContainers.runtimeconfig.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\bin\Debug\net9.0-windows\Task5_UIContainers.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\bin\Debug\net9.0-windows\Task5_UIContainers.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\obj\Debug\net9.0-windows\Task5_UIContainers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\obj\Debug\net9.0-windows\Task5_UIContainers.AssemblyInfoInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\obj\Debug\net9.0-windows\Task5_UIContainers.AssemblyInfo.cs
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\obj\Debug\net9.0-windows\Task5_UIContainers.csproj.CoreCompileInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\obj\Debug\net9.0-windows\Task5_UIContainers.sourcelink.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\obj\Debug\net9.0-windows\Task5_UIContainers.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\obj\Debug\net9.0-windows\refint\Task5_UIContainers.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\obj\Debug\net9.0-windows\Task5_UIContainers.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\obj\Debug\net9.0-windows\Task5_UIContainers.genruntimeconfig.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task5_UIContainers\obj\Debug\net9.0-windows\ref\Task5_UIContainers.dll

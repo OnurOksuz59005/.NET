@@ -1,0 +1,15 @@
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\bin\Debug\net9.0\Task3_Async.exe
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\bin\Debug\net9.0\Task3_Async.deps.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\bin\Debug\net9.0\Task3_Async.runtimeconfig.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\bin\Debug\net9.0\Task3_Async.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\bin\Debug\net9.0\Task3_Async.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\obj\Debug\net9.0\Task3_Async.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\obj\Debug\net9.0\Task3_Async.AssemblyInfoInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\obj\Debug\net9.0\Task3_Async.AssemblyInfo.cs
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\obj\Debug\net9.0\Task3_Async.csproj.CoreCompileInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\obj\Debug\net9.0\Task3_Async.sourcelink.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\obj\Debug\net9.0\Task3_Async.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\obj\Debug\net9.0\refint\Task3_Async.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\obj\Debug\net9.0\Task3_Async.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\obj\Debug\net9.0\Task3_Async.genruntimeconfig.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task3_Async\obj\Debug\net9.0\ref\Task3_Async.dll

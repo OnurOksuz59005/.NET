@@ -1,0 +1,15 @@
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\bin\Debug\net9.0-windows\Task4_VisualApp.exe
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\bin\Debug\net9.0-windows\Task4_VisualApp.deps.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\bin\Debug\net9.0-windows\Task4_VisualApp.runtimeconfig.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\bin\Debug\net9.0-windows\Task4_VisualApp.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\bin\Debug\net9.0-windows\Task4_VisualApp.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\obj\Debug\net9.0-windows\Task4_VisualApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\obj\Debug\net9.0-windows\Task4_VisualApp.AssemblyInfoInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\obj\Debug\net9.0-windows\Task4_VisualApp.AssemblyInfo.cs
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\obj\Debug\net9.0-windows\Task4_VisualApp.csproj.CoreCompileInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\obj\Debug\net9.0-windows\Task4_VisualApp.sourcelink.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\obj\Debug\net9.0-windows\Task4_VisualApp.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\obj\Debug\net9.0-windows\refint\Task4_VisualApp.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\obj\Debug\net9.0-windows\Task4_VisualApp.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\obj\Debug\net9.0-windows\Task4_VisualApp.genruntimeconfig.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task4_VisualApp\obj\Debug\net9.0-windows\ref\Task4_VisualApp.dll

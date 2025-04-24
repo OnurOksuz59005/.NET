@@ -1,0 +1,15 @@
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\bin\Debug\net9.0\Task2_HttpJson.exe
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\bin\Debug\net9.0\Task2_HttpJson.deps.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\bin\Debug\net9.0\Task2_HttpJson.runtimeconfig.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\bin\Debug\net9.0\Task2_HttpJson.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\bin\Debug\net9.0\Task2_HttpJson.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\obj\Debug\net9.0\Task2_HttpJson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\obj\Debug\net9.0\Task2_HttpJson.AssemblyInfoInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\obj\Debug\net9.0\Task2_HttpJson.AssemblyInfo.cs
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\obj\Debug\net9.0\Task2_HttpJson.csproj.CoreCompileInputs.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\obj\Debug\net9.0\Task2_HttpJson.sourcelink.json
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\obj\Debug\net9.0\Task2_HttpJson.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\obj\Debug\net9.0\refint\Task2_HttpJson.dll
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\obj\Debug\net9.0\Task2_HttpJson.pdb
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\obj\Debug\net9.0\Task2_HttpJson.genruntimeconfig.cache
+C:\Users\iniro\Desktop\Vizja Projects\.NET\LAB-2\Task2_HttpJson\obj\Debug\net9.0\ref\Task2_HttpJson.dll
