@@ -1,0 +1,9 @@
+@model List<Task5_EF_InMemory.Models.Product>
+
+<h2>Product List</h2>
+<ul>
+@foreach (var product in Model)
+{
+    <li>@product.Name</li>
+}
+</ul>

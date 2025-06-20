@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Favorite Color";
+}
+
+<h2>Your Favorite Color</h2>
+<p>Your favorite color is: <span style="color: @ViewBag.FavoriteColor">@ViewBag.FavoriteColor</span></p>
+
+<p>
+    <a href="@Url.Action("SetFavoriteColor", new { color = "red" })">Set to Red</a> |
+    <a href="@Url.Action("SetFavoriteColor", new { color = "green" })">Set to Green</a> |
+    <a href="@Url.Action("SetFavoriteColor", new { color = "blue" })">Set to Blue</a>
+</p>

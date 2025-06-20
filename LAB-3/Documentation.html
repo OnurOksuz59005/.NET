@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ASP.NET Core MVC Projects Documentation</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">ASP.NET Core MVC Projects Documentation</h1>
+</header>
+<h1 id="asp.net-core-mvc-projects-documentation">ASP.NET Core MVC
+Projects Documentation</h1>
+<blockquote>
+<p><strong>IMPORTANT SUBMISSION REQUIREMENTS:</strong> - Convert this
+documentation to PDF or DOCX format before submission - Do NOT include
+this documentation in a ZIP file - submit it as a separate file - Add
+screenshots demonstrating each task’s completion in the designated
+[SCREENSHOT] placeholders below - Ensure all screenshots clearly show
+the implemented functionality running in the browser</p>
+</blockquote>
+<p>This document provides step-by-step implementation details for the
+five ASP.NET Core MVC tasks:</p>
+<ol type="1">
+<li>Understanding Web Applications</li>
+<li>Constructing Data-Driven Web Apps</li>
+<li>Model-View-Controller (MVC) in ASP.NET</li>
+<li>Session, Cookies, and File Handling in ASP.NET</li>
+<li>Introducing Entity Framework Using In-Memory Database</li>
+</ol>
+<h2 id="environment-setup">Environment Setup</h2>
+<ul>
+<li>Windows operating system</li>
+<li>Visual Studio 2022</li>
+<li>.NET 8.0 SDK</li>
+</ul>
+<h2 id="task-1-understanding-web-applications">Task 1: Understanding Web
+Applications</h2>
+<h3 id="objective">Objective</h3>
+<p>Learn how web applications work and how they differ from console or
+desktop GUI apps. Explore the HTTP request/response cycle and the MVC
+structure in ASP.NET Core.</p>
+<h3 id="implementation">Implementation</h3>
+<ol type="1">
+<li>Created a new ASP.NET Core MVC project named
+<code>Task1_WebAppIntro</code></li>
+<li>Examined the MVC structure including Controllers, Views, and
+Models</li>
+<li>Analyzed the HomeController and its Index action method</li>
+<li>Added a new action method <code>WebAppInfo</code> that demonstrates
+the stateless nature of web applications</li>
+</ol>
+<h3 id="code-highlights">Code Highlights</h3>
+<p><strong>HomeController.cs</strong></p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode csharp"><code class="sourceCode cs"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> IActionResult <span class="fu">WebAppInfo</span><span class="op">()</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    ViewBag<span class="op">.</span><span class="fu">Message</span> <span class="op">=</span> <span class="st">&quot;Web apps are request-based and stateless.&quot;</span><span class="op">;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">return</span> <span class="fu">View</span><span class="op">();</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><strong>WebAppInfo.cshtml</strong></p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>@{</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    ViewData[&quot;Title&quot;] = &quot;Web App Information&quot;;</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">&quot;text-center&quot;</span><span class="dt">&gt;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">h1</span><span class="ot"> class</span><span class="op">=</span><span class="st">&quot;display-4&quot;</span><span class="dt">&gt;</span>Web Application Information<span class="dt">&lt;/</span><span class="kw">h1</span><span class="dt">&gt;</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>@ViewBag.Message<span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span></code></pre></div>
+<h3 id="screenshots">Screenshots</h3>
+<p>[SCREENSHOT 1: Home page of Task1_WebAppIntro showing the default
+welcome page]</p>
+<p>[SCREENSHOT 2: WebAppInfo page showing the message about web apps
+being request-based and stateless]</p>
+<h2 id="task-2-constructing-data-driven-web-apps">Task 2: Constructing
+Data-Driven Web Apps</h2>
+<h3 id="objective-1">Objective</h3>
+<p>Build a simple web page that displays a list of data objects from a
+controller. Simulate data storage without using a real database.</p>
+<h3 id="implementation-1">Implementation</h3>
+<ol type="1">
+<li>Created a new ASP.NET Core MVC project named
+<code>Task2_DataDrivenApp</code></li>
+<li>Created a Student model class with Id, Name, and Grade
+properties</li>
+<li>Created a StudentController that returns a list of Student objects
+with grades</li>
+<li>Created a view to display the list of students with their
+grades</li>
+<li>Added a navigation link to the Students page in the layout</li>
+</ol>
+<h3 id="code-highlights-1">Code Highlights</h3>
+<p><strong>Student.cs</strong></p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode csharp"><code class="sourceCode cs"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">namespace</span> Task2_DataDrivenApp<span class="op">.</span><span class="fu">Models</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="kw">class</span> Student</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> <span class="dt">int</span> Id <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> <span class="dt">string</span> Name <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        <span class="kw">public</span> <span class="dt">string</span> Grade <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><strong>StudentController.cs</strong></p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode csharp"><code class="sourceCode cs"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> IActionResult <span class="fu">Index</span><span class="op">()</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">var</span> students <span class="op">=</span> <span class="kw">new</span> List<span class="op">&lt;</span>Student<span class="op">&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>        <span class="kw">new</span> Student <span class="op">{</span> Id <span class="op">=</span> <span class="dv">1</span><span class="op">,</span> Name <span class="op">=</span> <span class="st">&quot;Anna&quot;</span><span class="op">,</span> Grade <span class="op">=</span> <span class="st">&quot;A&quot;</span> <span class="op">},</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>        <span class="kw">new</span> Student <span class="op">{</span> Id <span class="op">=</span> <span class="dv">2</span><span class="op">,</span> Name <span class="op">=</span> <span class="st">&quot;Piotr&quot;</span><span class="op">,</span> Grade <span class="op">=</span> <span class="st">&quot;B&quot;</span> <span class="op">}</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">};</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">return</span> <span class="fu">View</span><span class="op">(</span>students<span class="op">);</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><strong>Index.cshtml</strong></p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>@model List<span class="dt">&lt;</span><span class="kw">Task2_DataDrivenApp.Models.Student</span><span class="dt">&gt;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">h2</span><span class="dt">&gt;</span>Student List<span class="dt">&lt;/</span><span class="kw">h2</span><span class="dt">&gt;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">ul</span><span class="dt">&gt;</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>@foreach (var student in Model)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">li</span><span class="dt">&gt;</span>@student.Name (ID: @student.Id, Grade: @student.Grade)<span class="dt">&lt;/</span><span class="kw">li</span><span class="dt">&gt;</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">ul</span><span class="dt">&gt;</span></span></code></pre></div>
+<h3 id="screenshots-1">Screenshots</h3>
+<p>[SCREENSHOT 3: Student List page showing students with their IDs and
+grades]</p>
+<h2 id="task-3-model-view-controller-mvc-in-asp.net">Task 3:
+Model-View-Controller (MVC) in ASP.NET</h2>
+<h3 id="objective-2">Objective</h3>
+<p>Understand the structure and responsibility of each MVC component by
+modifying the existing student list.</p>
+<h3 id="implementation-2">Implementation</h3>
+<ol type="1">
+<li>Created a new ASP.NET Core MVC project named
+<code>Task3_MVC</code></li>
+<li>Enhanced the Student model with a Grade property</li>
+<li>Created a StudentController that sorts students by ID</li>
+<li>Created a view to display the list of students with their
+grades</li>
+<li>Added a navigation link to the Students page in the layout</li>
+</ol>
+<h3 id="code-highlights-2">Code Highlights</h3>
+<p><strong>Student.cs</strong></p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode csharp"><code class="sourceCode cs"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> Student</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">int</span> Id <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">string</span> Name <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">string</span> Grade <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><strong>StudentController.cs</strong></p>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode csharp"><code class="sourceCode cs"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> IActionResult <span class="fu">Index</span><span class="op">()</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">var</span> students <span class="op">=</span> <span class="kw">new</span> List<span class="op">&lt;</span>Student<span class="op">&gt;</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>        <span class="kw">new</span> Student <span class="op">{</span> Id <span class="op">=</span> <span class="dv">1</span><span class="op">,</span> Name <span class="op">=</span> <span class="st">&quot;Anna&quot;</span><span class="op">,</span> Grade <span class="op">=</span> <span class="st">&quot;A&quot;</span> <span class="op">},</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>        <span class="kw">new</span> Student <span class="op">{</span> Id <span class="op">=</span> <span class="dv">2</span><span class="op">,</span> Name <span class="op">=</span> <span class="st">&quot;Piotr&quot;</span><span class="op">,</span> Grade <span class="op">=</span> <span class="st">&quot;B&quot;</span> <span class="op">}</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">};</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Sort the students by ID instead of name</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="co">// This ensures that students are displayed in order of their ID numbers</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="co">// rather than alphabetically by name, making it easier to find students</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    <span class="co">// by their unique identifier in larger lists</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>    students<span class="op">.</span><span class="fu">Sort</span><span class="op">((</span>a<span class="op">,</span> b<span class="op">)</span> <span class="op">=&gt;</span> a<span class="op">.</span><span class="fu">Id</span><span class="op">.</span><span class="fu">CompareTo</span><span class="op">(</span>b<span class="op">.</span><span class="fu">Id</span><span class="op">));</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>    <span class="kw">return</span> <span class="fu">View</span><span class="op">(</span>students<span class="op">);</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><strong>Index.cshtml</strong></p>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>@model List<span class="dt">&lt;</span><span class="kw">Task3_MVC.Models.Student</span><span class="dt">&gt;</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">h2</span><span class="dt">&gt;</span>Student List<span class="dt">&lt;/</span><span class="kw">h2</span><span class="dt">&gt;</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">ul</span><span class="dt">&gt;</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>@foreach (var student in Model)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">li</span><span class="dt">&gt;</span>@student.Name (ID: @student.Id, Grade: @student.Grade)<span class="dt">&lt;/</span><span class="kw">li</span><span class="dt">&gt;</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">ul</span><span class="dt">&gt;</span></span></code></pre></div>
+<h3 id="screenshots-2">Screenshots</h3>
+<p>[SCREENSHOT 4: Student List page showing students sorted by ID with
+their grades]</p>
+<h2 id="task-4-session-cookies-and-file-handling-in-asp.net">Task 4:
+Session, Cookies, and File Handling in ASP.NET</h2>
+<h3 id="objective-3">Objective</h3>
+<p>Learn how to store and retrieve user-specific data using cookies and
+session, and how to write/read files on the server.</p>
+<h3 id="implementation-3">Implementation</h3>
+<ol type="1">
+<li>Created a new ASP.NET Core MVC project named
+<code>Task4_StateAndFiles</code></li>
+<li>Enabled session in Program.cs</li>
+<li>Created a HomeController with methods for handling cookies, session,
+and files</li>
+<li>Added methods to store and retrieve a favorite color using
+cookies</li>
+<li>Created views to display the stored data</li>
+</ol>
+<h3 id="code-highlights-3">Code Highlights</h3>
+<p><strong>Program.cs (Session Configuration)</strong></p>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode csharp"><code class="sourceCode cs"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>builder<span class="op">.</span><span class="fu">Services</span><span class="op">.</span><span class="fu">AddSession</span><span class="op">();</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co">// ...</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>app<span class="op">.</span><span class="fu">UseSession</span><span class="op">();</span></span></code></pre></div>
+<p><strong>HomeController.cs</strong></p>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode csharp"><code class="sourceCode cs"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> IActionResult <span class="fu">SetData</span><span class="op">()</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    HttpContext<span class="op">.</span><span class="fu">Response</span><span class="op">.</span><span class="fu">Cookies</span><span class="op">.</span><span class="fu">Append</span><span class="op">(</span><span class="st">&quot;UserName&quot;</span><span class="op">,</span> <span class="st">&quot;Anna&quot;</span><span class="op">);</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    HttpContext<span class="op">.</span><span class="fu">Session</span><span class="op">.</span><span class="fu">SetString</span><span class="op">(</span><span class="st">&quot;Greeting&quot;</span><span class="op">,</span> <span class="st">&quot;Hello from session!&quot;</span><span class="op">);</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">return</span> <span class="fu">RedirectToAction</span><span class="op">(</span><span class="st">&quot;GetData&quot;</span><span class="op">);</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> IActionResult <span class="fu">GetData</span><span class="op">()</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    ViewBag<span class="op">.</span><span class="fu">Name</span> <span class="op">=</span> HttpContext<span class="op">.</span><span class="fu">Request</span><span class="op">.</span><span class="fu">Cookies</span><span class="op">[</span><span class="st">&quot;UserName&quot;</span><span class="op">];</span></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>    ViewBag<span class="op">.</span><span class="fu">Message</span> <span class="op">=</span> HttpContext<span class="op">.</span><span class="fu">Session</span><span class="op">.</span><span class="fu">GetString</span><span class="op">(</span><span class="st">&quot;Greeting&quot;</span><span class="op">);</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">return</span> <span class="fu">View</span><span class="op">();</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> IActionResult <span class="fu">WriteFile</span><span class="op">()</span></span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>    <span class="dt">string</span> path <span class="op">=</span> <span class="st">&quot;wwwroot/data.txt&quot;</span><span class="op">;</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>    System<span class="op">.</span><span class="fu">IO</span><span class="op">.</span><span class="fu">File</span><span class="op">.</span><span class="fu">WriteAllText</span><span class="op">(</span>path<span class="op">,</span> <span class="st">&quot;Saved at: &quot;</span> <span class="op">+</span> DateTime<span class="op">.</span><span class="fu">Now</span><span class="op">);</span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>    <span class="kw">return</span> <span class="fu">Content</span><span class="op">(</span><span class="st">&quot;File saved.&quot;</span><span class="op">);</span></span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> IActionResult <span class="fu">SetFavoriteColor</span><span class="op">(</span><span class="dt">string</span> color <span class="op">=</span> <span class="st">&quot;blue&quot;</span><span class="op">)</span></span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>    HttpContext<span class="op">.</span><span class="fu">Response</span><span class="op">.</span><span class="fu">Cookies</span><span class="op">.</span><span class="fu">Append</span><span class="op">(</span><span class="st">&quot;FavoriteColor&quot;</span><span class="op">,</span> color<span class="op">);</span></span>
+<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>    <span class="kw">return</span> <span class="fu">RedirectToAction</span><span class="op">(</span><span class="st">&quot;DisplayFavoriteColor&quot;</span><span class="op">);</span></span>
+<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> IActionResult <span class="fu">DisplayFavoriteColor</span><span class="op">()</span></span>
+<span id="cb10-29"><a href="#cb10-29" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb10-30"><a href="#cb10-30" aria-hidden="true" tabindex="-1"></a>    ViewBag<span class="op">.</span><span class="fu">FavoriteColor</span> <span class="op">=</span> HttpContext<span class="op">.</span><span class="fu">Request</span><span class="op">.</span><span class="fu">Cookies</span><span class="op">[</span><span class="st">&quot;FavoriteColor&quot;</span><span class="op">]</span> <span class="op">??</span> <span class="st">&quot;No color selected&quot;</span><span class="op">;</span></span>
+<span id="cb10-31"><a href="#cb10-31" aria-hidden="true" tabindex="-1"></a>    <span class="kw">return</span> <span class="fu">View</span><span class="op">();</span></span>
+<span id="cb10-32"><a href="#cb10-32" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><strong>DisplayFavoriteColor.cshtml</strong></p>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>@{</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    ViewData[&quot;Title&quot;] = &quot;Favorite Color&quot;;</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">h2</span><span class="dt">&gt;</span>Your Favorite Color<span class="dt">&lt;/</span><span class="kw">h2</span><span class="dt">&gt;</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">p</span><span class="dt">&gt;</span>Your favorite color is: <span class="dt">&lt;</span><span class="kw">strong</span><span class="ot"> style</span><span class="op">=</span><span class="st">&quot;color:@ViewBag.FavoriteColor&quot;</span><span class="dt">&gt;</span>@ViewBag.FavoriteColor<span class="dt">&lt;/</span><span class="kw">strong</span><span class="dt">&gt;&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Change your favorite color:<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">ul</span><span class="dt">&gt;</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">li</span><span class="dt">&gt;&lt;</span><span class="kw">a</span><span class="ot"> asp-action</span><span class="op">=</span><span class="st">&quot;SetFavoriteColor&quot;</span><span class="ot"> asp-route-color</span><span class="op">=</span><span class="st">&quot;red&quot;</span><span class="dt">&gt;</span>Red<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;&lt;/</span><span class="kw">li</span><span class="dt">&gt;</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">li</span><span class="dt">&gt;&lt;</span><span class="kw">a</span><span class="ot"> asp-action</span><span class="op">=</span><span class="st">&quot;SetFavoriteColor&quot;</span><span class="ot"> asp-route-color</span><span class="op">=</span><span class="st">&quot;green&quot;</span><span class="dt">&gt;</span>Green<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;&lt;/</span><span class="kw">li</span><span class="dt">&gt;</span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">li</span><span class="dt">&gt;&lt;</span><span class="kw">a</span><span class="ot"> asp-action</span><span class="op">=</span><span class="st">&quot;SetFavoriteColor&quot;</span><span class="ot"> asp-route-color</span><span class="op">=</span><span class="st">&quot;blue&quot;</span><span class="dt">&gt;</span>Blue<span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;&lt;/</span><span class="kw">li</span><span class="dt">&gt;</span></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">ul</span><span class="dt">&gt;</span></span></code></pre></div>
+<h3 id="screenshots-3">Screenshots</h3>
+<p>[SCREENSHOT 5: Session and Cookie page showing stored user data]</p>
+<p>[SCREENSHOT 6: Favorite Color page showing the selected color and
+options to change it]</p>
+<h2
+id="task-5-introducing-entity-framework-using-in-memory-database">Task
+5: Introducing Entity Framework Using In-Memory Database</h2>
+<h3 id="objective-4">Objective</h3>
+<p>Understand how Entity Framework Core works by creating a simple data
+model, setting up an in-memory database context, and performing data
+operations without using a physical database.</p>
+<h3 id="implementation-4">Implementation</h3>
+<ol type="1">
+<li>Created a new ASP.NET Core MVC project named
+<code>Task5_EF_InMemory</code></li>
+<li>Added the Microsoft.EntityFrameworkCore.InMemory NuGet package</li>
+<li>Created a Product model class</li>
+<li>Created an AppDbContext class for Entity Framework</li>
+<li>Registered the DbContext with the In-Memory provider in
+Program.cs</li>
+<li>Created a ProductController that adds sample data and retrieves
+it</li>
+<li>Created a view to display the list of products</li>
+<li>Added a navigation link to the Products page in the layout</li>
+</ol>
+<h3 id="code-highlights-4">Code Highlights</h3>
+<p><strong>Product.cs</strong></p>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode csharp"><code class="sourceCode cs"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> Product</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">int</span> Id <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="dt">string</span> Name <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><strong>AppDbContext.cs</strong></p>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode csharp"><code class="sourceCode cs"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> AppDbContext <span class="op">:</span> DbContext</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> DbSet<span class="op">&lt;</span>Product<span class="op">&gt;</span> Products <span class="op">{</span> <span class="kw">get</span><span class="op">;</span> <span class="kw">set</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="fu">AppDbContext</span><span class="op">(</span>DbContextOptions<span class="op">&lt;</span>AppDbContext<span class="op">&gt;</span> options<span class="op">)</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>        <span class="op">:</span> <span class="kw">base</span><span class="op">(</span>options<span class="op">)</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><strong>Program.cs (DbContext Registration)</strong></p>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode csharp"><code class="sourceCode cs"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>builder<span class="op">.</span><span class="fu">Services</span><span class="op">.</span><span class="fu">AddDbContext</span><span class="op">&lt;</span>AppDbContext<span class="op">&gt;(</span>options <span class="op">=&gt;</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    options<span class="op">.</span><span class="fu">UseInMemoryDatabase</span><span class="op">(</span><span class="st">&quot;ProductDatabase&quot;</span><span class="op">));</span></span></code></pre></div>
+<p><strong>ProductController.cs</strong></p>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode csharp"><code class="sourceCode cs"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> ProductController <span class="op">:</span> Controller</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">private</span> <span class="kw">readonly</span> AppDbContext _context<span class="op">;</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="fu">ProductController</span><span class="op">(</span>AppDbContext context<span class="op">)</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>        _context <span class="op">=</span> context<span class="op">;</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Add default data if empty</span></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>        <span class="kw">if</span> <span class="op">(!</span>_context<span class="op">.</span><span class="fu">Products</span><span class="op">.</span><span class="fu">Any</span><span class="op">())</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>        <span class="op">{</span></span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>            _context<span class="op">.</span><span class="fu">Products</span><span class="op">.</span><span class="fu">Add</span><span class="op">(</span><span class="kw">new</span> Product <span class="op">{</span> Name <span class="op">=</span> <span class="st">&quot;Notebook&quot;</span> <span class="op">});</span></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>            _context<span class="op">.</span><span class="fu">Products</span><span class="op">.</span><span class="fu">Add</span><span class="op">(</span><span class="kw">new</span> Product <span class="op">{</span> Name <span class="op">=</span> <span class="st">&quot;Pen&quot;</span> <span class="op">});</span></span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>            _context<span class="op">.</span><span class="fu">Products</span><span class="op">.</span><span class="fu">Add</span><span class="op">(</span><span class="kw">new</span> Product <span class="op">{</span> Name <span class="op">=</span> <span class="st">&quot;Laptop&quot;</span> <span class="op">});</span></span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>            _context<span class="op">.</span><span class="fu">SaveChanges</span><span class="op">();</span></span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> IActionResult <span class="fu">Index</span><span class="op">()</span></span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>        <span class="dt">var</span> products <span class="op">=</span> _context<span class="op">.</span><span class="fu">Products</span><span class="op">.</span><span class="fu">ToList</span><span class="op">();</span></span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>        <span class="kw">return</span> <span class="fu">View</span><span class="op">(</span>products<span class="op">);</span></span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p><strong>Index.cshtml (Product View)</strong></p>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>@model List<span class="dt">&lt;</span><span class="kw">Task5_EF_InMemory.Models.Product</span><span class="dt">&gt;</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">h2</span><span class="dt">&gt;</span>Product List<span class="dt">&lt;/</span><span class="kw">h2</span><span class="dt">&gt;</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">ul</span><span class="dt">&gt;</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>@foreach (var product in Model)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">li</span><span class="dt">&gt;</span>@product.Name (ID: @product.Id)<span class="dt">&lt;/</span><span class="kw">li</span><span class="dt">&gt;</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">ul</span><span class="dt">&gt;</span></span></code></pre></div>
+<h3 id="screenshots-4">Screenshots</h3>
+<p>[SCREENSHOT 7: Products page showing the list of products including
+the added Laptop]</p>
+<h2 id="final-task-modifications">Final Task: Modifications</h2>
+<p>All the requested modifications have been implemented:</p>
+<ol type="1">
+<li>Task 1: Added a method in HomeController that returns a view with a
+message about web apps being request-based and stateless.</li>
+<li>Task 2: Added a Grade field to the student model and displayed it in
+the list.</li>
+<li>Task 3: Sorted the student list by Id and added detailed explanatory
+comments in the controller.</li>
+<li>Task 4: Added actions to store and display a favorite color using
+cookies.</li>
+<li>Task 5: Added another product (Laptop) to the database in
+ProductController.</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>These five tasks demonstrate the core concepts of ASP.NET Core MVC
+development, including:</p>
+<ul>
+<li>The basic structure of web applications and the MVC pattern</li>
+<li>Working with data models and controllers</li>
+<li>Managing state with cookies and session</li>
+<li>File handling on the server</li>
+<li>Using Entity Framework Core with an in-memory database</li>
+</ul>
+<p>The implementations follow best practices for ASP.NET Core
+development and provide a solid foundation for building more complex web
+applications.</p>
+<h2 id="submission-instructions">Submission Instructions</h2>
+<ol type="1">
+<li><strong>Format</strong>: Convert this documentation to PDF or DOCX
+format before submission.</li>
+<li><strong>Screenshots</strong>: Replace all [SCREENSHOT] placeholders
+with actual screenshots of the running applications.</li>
+<li><strong>Separate File</strong>: Submit this documentation as a
+separate file, not included in any ZIP archive.</li>
+<li><strong>Verification</strong>: Before submission, verify that all
+screenshots clearly demonstrate the implemented functionality for each
+task.</li>
+</ol>
+</body>
+</html>
